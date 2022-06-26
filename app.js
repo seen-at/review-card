@@ -52,7 +52,7 @@ const randomBtn = document.querySelector(".random-btn")
 // set starting item
 let currentItem = 0;
 
-// load initial item
+// load initial item from the array; also stops the loading of the hard-coded item in the HTML
 window.addEventListener("DOMContentLoaded", function () {
   showPerson(currentItem)
 })
