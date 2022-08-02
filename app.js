@@ -83,7 +83,7 @@ prevBtn.addEventListener("click", function () {
   currentItem--;
   // enables navigation in both ways
   if (currentItem < 0) {
-    currentItem = reviews.length;
+    currentItem = reviews.length - 1;
   }
   showPerson(currentItem)
 })
